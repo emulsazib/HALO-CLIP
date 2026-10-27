@@ -29,14 +29,14 @@ Llama3.2-1B-EVA02-L-14-336: 375M params, 375M trainable (vision 305M, adapter 70
 
 
 epoch 0 | i2t R@1/5/10 94.7/99.5/99.8 | t2i R@1/5/10 81.5/95.5/97.7 | mean R@1 88.12 (before training)
-  ★ new best → /content/drive/MyDrive/llm2clip_runs/llm2clip_flickr30k/best_model.pt
+- ★ new best → /content/drive/MyDrive/llm2clip_runs/llm2clip_flickr30k/best_model.pt
 epoch 1/3: 100% 240/240 [11:05<00:00,  2.75s/it, i2t=0.94, loss=0.184, scale=99.9]epoch 1 | i2t R@1/5/10 93.2/99.3/99.8 | t2i R@1/5/10 81.7/96.1/98.0 | mean R@1 87.47 | train loss 0.161 | 11.2 min
 epoch 2/3: 100% 240/240 [11:04<00:00,  2.75s/it, i2t=0.98, loss=0.079, scale=99.9]epoch 2 | i2t R@1/5/10 95.3/99.5/99.7 | t2i R@1/5/10 83.5/96.7/98.2 | mean R@1 89.42 | train loss 0.138 | 11.2 min
-  ★ new best → /content/drive/MyDrive/llm2clip_runs/llm2clip_flickr30k/best_model.pt
+- ★ new best → /content/drive/MyDrive/llm2clip_runs/llm2clip_flickr30k/best_model.pt
 epoch 3/3: 100% 240/240 [11:04<00:00,  2.75s/it, i2t=0.98, loss=0.064, scale=99.9]epoch 3 | i2t R@1/5/10 95.2/99.4/99.7 | t2i R@1/5/10 84.5/97.0/98.5 | mean R@1 89.87 | train loss 0.101 | 11.2 min
-  ★ new best → /content/drive/MyDrive/llm2clip_runs/llm2clip_flickr30k/best_model.pt
+- ★ new best → /content/drive/MyDrive/llm2clip_runs/llm2clip_flickr30k/best_model.pt
 
-Best: epoch 3 | mean R@1 89.87 | rsum 574.3
+**Best: epoch 3 | mean R@1 89.87 | rsum 574.3**
 
 ## Sanity check: retrieve captions for val images with the best weights
 ![Sanity Check](https://github.com/emulsazib/HALO-CLIP/blob/main/LLM2CLIP_Output/Results/sanity_check.png?raw=true)
