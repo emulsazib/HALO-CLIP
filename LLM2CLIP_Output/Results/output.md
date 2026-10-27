@@ -8,7 +8,7 @@ Dataset({
     features: ['image', 'caption', 'sentids', 'img_id', 'filename'],
     num_rows: 31783
 })
-![Load Dataset](LLM2CLIP_Output/Results/load_dataset.png)
+![Load Dataset](https://github.com/emulsazib/HALO-CLIP/blob/main/LLM2CLIP_Output/Results/load_dataset.png?raw=true)
 train images: 30,783 (153,915 captions) | val images: 1,000 (5,000 captions)
 • Two young guys with shaggy hair look at their hands while hanging out in the yard .
 • Two young  White males are outside near many bushes .
@@ -25,7 +25,7 @@ train_emb (153915, 2048) | val_emb (5000, 2048)
 Llama3.2-1B-EVA02-L-14-336: 375M params, 375M trainable (vision 305M, adapter 70M)
 
 ## Training curves
-![Training carve](LLM2CLIP_Output/Results/training_carve.png)
+![Training carve](https://github.com/emulsazib/HALO-CLIP/blob/main/LLM2CLIP_Output/Results/training_carve.png?raw=true)
 
 
 epoch 0 | i2t R@1/5/10 94.7/99.5/99.8 | t2i R@1/5/10 81.5/95.5/97.7 | mean R@1 88.12 (before training)
@@ -39,6 +39,6 @@ epoch 3/3: 100% 240/240 [11:04<00:00,  2.75s/it, i2t=0.98, loss=
 Best: epoch 3 | mean R@1 89.87 | rsum 574.3
 
 ## Sanity check: retrieve captions for val images with the best weights
-![Sanity Check](LLM2CLIP_Output/Results/sanity_check.png)
+![Sanity Check](https://github.com/emulsazib/HALO-CLIP/blob/main/LLM2CLIP_Output/Results/sanity_check.png?raw=true)
 --- 
 # Train 2
