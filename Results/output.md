@@ -155,7 +155,7 @@ paper's SG4V-1K (first 1000 entries) by source: {'sam': 1000}
   images 21,000/21,000 | failed 0 | 96.4 img/s | 0:03:37
 train images: 20,000 | val images: 1,000 (1 long caption each)
 average caption length: 145 words
-![Load Dataset]()
+![Load Dataset](https://github.com/emulsazib/HALO-CLIP/blob/main/Results/SGPT4_load_dataset.png?raw=true)
 
 - The image captures a lively scene at a ski resort on a snowy day. The sky above is a clear blue, providing a beautiful contrast to the white snow below. The resort is bustling with people, all dressed in winter clothing and carrying ski equipment, ready to enjoy the day on the slopes.
 
@@ -324,9 +324,9 @@ Best: epoch 0 | mean R@1 98.75 | rsum 597.1
 | 156/156 | 100% | 0.0019 | 1.00 | 1.00 | 0.00e+00 | 99.9 | 0.42 | 46.1 | 25.4GB | 0:25:11 | 0:00:00 |
 
 ## Learning Carve
-![Learning carve]()
+![Learning carve](https://github.com/emulsazib/HALO-CLIP/blob/main/Results/SGPT4_lerning_carve.png?raw=true)
 
-![Check]()
+![Check](https://github.com/emulsazib/HALO-CLIP/blob/main/Results/SGPT4_check.png?raw=true)
 
 ## Compare with the paper
 ```
